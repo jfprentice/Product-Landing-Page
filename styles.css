@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e4e3e3;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+hr{
+  width: 35%;
+  margin: 25px auto;
+  color: #000;
+  border-style: solid;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 75px;
+  background-color: #FFF;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: auto;
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px 25px 5px 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color:  #204051;
+}
+
+.hero{
+  margin: 150px auto;
+  text-align: center;
+}
+
+#features{
+    background-color: #3b6978;
+    padding: 25px 0;
+}
+
+.features {
+  margin: 75px auto;
+  padding: 25px 0 50px 0;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feature-heading{
+  text-align: left;
+}
+
+.feat-con {
+  height: 250px;
+  flex-basis: 20em;
+}
+
+.feat-icon {
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+#pricing{
+  padding: 25px 0;
+}
+
+.pricing {
+  margin: 75px auto;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pricing-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 500px;
+  flex-basis: 21em;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+.pricing-con > h2 {
+  text-align: center;
+}
+
+.pricing-con > hr{
+  width: 35%;
+  margin: 10px auto;
+  border-style: solid;
+}
+
+.price-icon {
+  width: 20%;
+  height: auto;
+  margin: 20px auto 20px auto;
+
+}
+
+#signup{
+  background-color: #3b6978;
+  padding: 25px 0;
+}
+
+#signup > p{
+  width: 50%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form{
+  width: 75%;
+}
+
+#email{
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+}
+
+#submit{
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+footer{
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  height: 75px;
+}
+
+/* ------------------MEDIA QUERIES----------------- */
+
+@media only screen
+and (max-width: 575px){
+  #video{
+    width: 373.33px;
+    height: 210px;
+  }
+
+  .nav-item{
+    padding: 5px 10px 5px 10px;
+  }
+
+  a{
+    font-size: .9rem;
+  }
+
+
+}
+
+@media only screen
+and (max-width : 1024px) {
+  .features {
+    margin: 75px auto;
+    padding: 25px 0 50px 0;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-heading{
+    text-align: left;
+  }
+
+  .feat-con {
+    margin: 25px auto;
+    width: 75%;
+    flex-basis: 20em;
+  }
+
+  .feat-icon {
+    width: 15%;
+    height: auto;
+    margin: auto;
+  }
+
+  .pricing {
+    margin: 75px auto;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pricing-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
+    width: 75%;
+    text-align: left;
+    flex-basis: 20em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #FFF;
+  }
+
+  .pricing-con > h2 {
+    text-align: center;
+  }
+
+  .pricing-con > hr{
+    width: 35%;
+    margin: 10px auto;
+    border-style: solid;
+  }
+
+  .pricing-con > ul{
+    margin: 16px auto;
+    padding: 0;
+    text-align: left;
+  }
+
+  .price-icon {
+    width: 10%;
+    height: auto;
+    margin: 20px auto 20px auto;
+  }
+
+  #signup > p{
+    width: 75%;
+    margin: 25px auto;
+    text-align: center;
+  }
+
+  #email{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+  }
+}

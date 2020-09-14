@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FCC Product Landing Page</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="img/logo.jpg" alt="Launchpad Logo">
+    <nav id="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#signup">Sign-Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to Launchpad!</h1>
+    <p>We specialize in custom built websites to meet your personal or business needs!</p>
+    <hr>
+    <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/0pThnRneDjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div id="features">
+    <hr>
+    <h2>What We Offer</h2>
+    <hr>
+    <div  class="features">
+      <div class="feat-con">
+        <img class="feat-icon" src="img/custom.svg" alt="Custom Content Icon">
+        <h2 class="feature-heading">Custom Content</h2>
+        <p>Our websites are custom built to meet your needs. We never use prewritten content. We hand write all code and content. You can be sure that your website will represent you and your business 100%.</p>
+      </div>
+      <div class="feat-con">
+        <img class="feat-icon" src="img/responsive.svg" alt="Responsive Layout Icon">
+        <h2 class="feature-heading">Responsive Layouts</h2>
+        <p>Responsive Layouts are a priority. With the vast majoirty of internet traffic occuring on mobile devices, we ensure that your website will not only look great but will also be easy to use and navigate, no matter the device size.</p>
+      </div>
+      <div class="feat-con">
+        <img class="feat-icon" src="img/analytics.svg" alt="Analytics Icon">
+        <h2 class="feature-heading">Hosting and Analytics</h2>
+        <p>We will provide the hosting for your website as well as free analytic monitoring. From this data, we can make tweaks to increase the performance of your website.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing">
+    <hr>
+    <h2>Custom Website Packages</h2>
+    <hr>
+    <div class="pricing">
+      <div class="pricing-con">
+        <img class="price-icon" src="img/single.svg" alt="Single Page Icon">
+        <h2>Simple</h2>
+        <hr>
+        <ul>
+          <li>Custom Static Website</li>
+          <li>Unlimited Edits</li>
+          <li>Free Google Analytics</li>
+          <li>24/7 Support</li>
+        </ul>
+        <h3>$20/month</h3>
+      </div>
+      <div class="pricing-con">
+        <img class="price-icon" src="img/multiple.svg" alt="Multiple Page Icon">
+        <h2>Mulitple Page</h2>
+        <hr>
+        <ul>
+          <li>Custom Static Website Up to 5 Pages</li>
+          <li>Unlimited Edits</li>
+          <li>Free Google Analytics</li>
+          <li>24/7 Support</li>
+        </ul>
+        <h3>$40/month</h3>
+      </div>
+      <div class="pricing-con">
+        <img class="price-icon" src="img/deluxe.svg" alt="Deluxe Package Icon">
+        <h2>Deluxe</h2>
+        <hr>
+        <ul>
+          <li>Custom Static Website with Unlimited Pages</li>
+          <li>Unlimited Edits</li>
+          <li>Free Google Analytics</li>
+          <li>24/7 Support</li>
+        </ul>
+        <h3>$65/month</h3>
+      </div>
+    </div>
+  </div>
+
+  <div id="signup">
+    <hr>
+    <h2>Sign-up to Learn More!</h2>
+    <hr>
+    <p>If you're interested in enlisting our services to create the perfect website for you or your business, please enter your email below and we will get with back with you about the specifics!</p>
+    <div class="signup">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input id="email" type="email" name="email" placeholder="Enter Your Email Address" required>
+        <input id="submit" type="submit" name="submit" class="btn" value="Sign-Up">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>Launchpad 2020</p>
+  </footer>
+</body>
+
+</html>
